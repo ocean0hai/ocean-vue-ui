@@ -1,6 +1,5 @@
-import { createApp } from 'vue'
-import "./style.css"
+import {createApp } from 'vue'
 import App from "./App.vue"
-import "@vue3-ui/theme-chalk/src/index.scss"
-
-createApp(App).mount("#app")
+import Vue3UI from "@ocean-vue-ui/components"
+import 'virtual:uno.css';
+createApp(App).use(Vue3UI).mount("#app")

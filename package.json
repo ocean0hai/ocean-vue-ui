@@ -1,5 +1,5 @@
 {
-  "name": "ocean-ui",
+  "name": "ocean-vue-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,10 +13,16 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@iconify-json/ic": "1.1.4",
-    "@typescript-eslint/eslint-plugin": "^6.8.0",
-    "@typescript-eslint/parser": "^6.8.0",
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@testing-library/vue": "^7.0.0",
+    "@types/node": "^20.8.7",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vitest/ui": "^0.33.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.51.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",

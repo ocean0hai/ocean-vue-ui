@@ -1,5 +1,5 @@
 {
-  "name": "ocean-ui",
+  "name": "@ocean-vue-ui/components",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@ocean-vue-ui/theme-chalk": "workspace:^",
+    "@ocean-vue-ui/utils": "workspace:^"
+  }
 }
